@@ -4,7 +4,11 @@ build and run
 ```$ swift build && .build/debug/Run```
 
 
-connect to ws and create ws onmessage hook
+swift code to pay attention:
+https://github.com/bduisenov/vapor.beta.ws/blob/master/Sources/App/routes.swift#L30
+
+
+connect to ws from client side and create ws onmessage hook
 ```js
 var exampleSocket = new WebSocket("ws://my_token@localhost:8080/ws");
 
